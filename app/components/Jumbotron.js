@@ -4,7 +4,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className='flex lg:flex-row flex-col-reverse lg:px-4 px-0 mt-6 lg:gap-0 gap-12'>
+        <div className='flex lg:flex-row flex-col-reverse lg:px-4 px-0 lg:ms-6 ms-0 mt-6 lg:gap-0 gap-12'>
             <div className='flex flex-col basis-[50%] items-start justify-center lg:ms-10 ms-0 me-0 gap-5'>
                 <h3 className='text-2xl font-semibold uppercase tracking-wide'>Rizky Khoiruddin</h3>
                 <h1 className='text-blue text-5xl font-bold'>Fullstack Developer</h1>
