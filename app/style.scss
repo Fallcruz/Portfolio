@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Rakkas&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black: #000000;
+    --blue: #1e88e5;
+    --black-secodary: #202020;
+    --gray: #b1b1b1;
+    --white: #ffffff;
+
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+    --rakkas: "Rakkas", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--black-secodary);
+    color: var(--white);
+}
