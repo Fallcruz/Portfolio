@@ -14,7 +14,7 @@ function Header() {
                 <Link href='/projects' className='bg-blue text-base text-white font-bold px-4 py-2 rounded'>Contact With Me</Link>
             </div>
             <div className='flex flex-row basis-[50%] items-center justify-center'>
-                <Image className='w-auto lg:h-96 h-80' src='/img/pic-profile.png' width={500} height={500} quality={100} alt='logo' priority={true}/>
+                <Image className='lg:w-auto w-80 lg:h-96 h-auto' src='/img/pic-profile.png' width={500} height={500} quality={100} alt='logo' priority={true}/>
             </div>
         </div>
         // <div className='grid lg:grid-cols-2 grid-cols-1 flex-col-reverse lg:px-4 px-0 mt-6 lg:gap-0 gap-6'>
