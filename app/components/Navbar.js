@@ -15,18 +15,18 @@ function Navbar() {
                 <Image className='lg:w-[72px] lg:h-[72px] w-16 h-16' src='/img/round-profile.png' width={500} height={500} quality={100} alt='logo' priority={true} />
                 <h1 className='mt-1 lg:text-[3.5rem] text-[2.5rem] font-rakkas leading-none lg:tracking-[-0.5rem] tracking-[-0.3rem]'>RK</h1>
             </div>
-            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex flex-row lg:w-fit w-[95%] bg-soft-black items-center lg:justify-end justify-center lg:pt-0 lg:pb-0 pt-4 pb-6 gap-12`}>
+            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex flex-row lg:w-fit w-[98%] bg-soft-black items-center lg:justify-end justify-center lg:pt-0 lg:pb-0 pt-4 pb-6 lg:gap-12 gap-8`}>
                 <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans text-base font-medium hover:text-gray active'>Home</Link>
+                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray active'>Home</Link>
                 </li>
                 <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans text-base font-medium hover:text-gray'>Projects</Link>
+                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Projects</Link>
                 </li>
                 <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans text-base font-medium hover:text-gray'>About</Link>
+                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>About</Link>
                 </li>
                 <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans text-base font-medium hover:text-gray'>Contacts</Link>
+                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Contacts</Link>
                 </li>
             </ul>
             <div className='flex lg:hidden items-center justify-center'>
