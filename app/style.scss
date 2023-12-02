@@ -20,5 +20,10 @@ body {
     margin: 0;
     box-sizing: border-box;
     background: var(--black-secodary);
+    font-family: var(--plus-jakarta-sans);
     color: var(--white);
+}
+
+.active {
+    color: var(--blue);
 }
