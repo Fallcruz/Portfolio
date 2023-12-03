@@ -1,5 +1,6 @@
 // import './globals.css'
 import './style.scss'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
     title: 'Portfolio - Rizky Khoiruddin',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
             </head>
             <body>
                 {children}
+                <Analytics />
             </body>
         </html>
     )
