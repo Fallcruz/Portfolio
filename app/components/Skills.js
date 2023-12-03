@@ -6,7 +6,7 @@ function Skills() {
         <div className='flex flex-col items-center mt-12 gap-4'>
             <h1 className='text-2xl font-medium'>My Skills</h1>
             <hr className='w-10 border-t-[3px] border-white rounded' />
-            <div className='w-fit flex flex-row flex-wrap items-center justify-center bg-white rounded-lg lg:gap-12 gap-6 px-8 py-5'>
+            <div className='w-fit flex flex-row flex-wrap items-center justify-center bg-white rounded-lg lg:gap-12 gap-6 lg:px-8 px-5 py-5'>
                 <div aria-label='html'>
                     <Image className='w-auto lg:h-16 h-10' src='/img/html.svg' width={500} height={500} quality={100} alt='html'/>
                 </div>
