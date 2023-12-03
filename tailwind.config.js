@@ -12,7 +12,7 @@ module.exports = {
             'gray': '#b1b1b1',
             'blue': '#1e88e5',
             'white': '#ffffff',
-            'gray-card': 'rgba(255, 255, 255, 0.094)',
+            'gray-card': 'rgba(255, 255, 255, 0.9)',
         },
         fontFamily: {
             'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
