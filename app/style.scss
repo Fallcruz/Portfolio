@@ -24,10 +24,19 @@ body {
     color: var(--white);
 }
 
-.active {
-    color: var(--blue);
-}
+// .active {
+//     color: var(--blue);
+// }
+nav .navbar-menu li.active {
+    background: var(--blue);
+    padding: 6px 14px;
+    border-radius: 6px;
 
+    a {
+        color: var(--white);
+        font-weight: 600;
+    }
+}
 // nav .navbar-menu {
 //     transition: all 0.8s ease-in-out !important;
 // }

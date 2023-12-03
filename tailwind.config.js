@@ -7,9 +7,11 @@ module.exports = {
     ],
     theme: {
         colors: {
-            'soft-black': '#202020',
+            'black-primary': '#000000',
+            'black-secondary': '#202020',
             'gray': '#b1b1b1',
             'blue': '#1e88e5',
+            'white': '#ffffff',
         },
         fontFamily: {
             'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
