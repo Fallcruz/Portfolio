@@ -7,12 +7,27 @@
 :root {
     --black: #000000;
     --blue: #1e88e5;
-    --black-secodary: #1c1c1c;
+    --black-secondary: #1c1c1c;
     --gray: #b1b1b1;
     --white: #ffffff;
 
     --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
     --rakkas: "Rakkas", sans-serif;
+}
+
+/* === Scroll Bar === */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--gray);
+    border-radius: 0px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
 }
 
 body {
