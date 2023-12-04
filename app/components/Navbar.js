@@ -1,16 +1,20 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React, { useState } from 'react'
+import { usePathname, useRouter } from 'next/navigation'
+import React, { useEffect, useState } from 'react'
 
 function Navbar() {
+    const router = useRouter();
     const pathname = usePathname()
     const [showNavbar, setShowNavbar] = useState(false)
     const handleNavbar = () => {
         setShowNavbar(!showNavbar)
     }
-    // console.log(showNavbar);
+    useEffect(() => {
+        setShowNavbar(false)
+    }, [pathname]);
+
     return (
         <nav className='flex flex-row items-center justify-between fixed top-0 left-0 right-0 lg:py-3 py-2 lg:px-14 px-6 bg-black-secondary z-50 max-w-[1600px] mx-auto'>
             <div className='flex flex-row items-center gap-1'>
@@ -21,8 +25,8 @@ function Navbar() {
                 <li className={`w-fit ${pathname === '/' ? 'active' : ''}`}>
                     <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Home</Link>
                 </li>
-                <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Projects</Link>
+                <li className={`w-fit ${pathname === '/projects' ? 'active' : ''}`}>
+                    <Link href='/projects' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Projects</Link>
                 </li>
                 <li className={`w-fit ${pathname === '/about' ? 'active' : ''}`}>
                     <Link href='/about' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>About</Link>
