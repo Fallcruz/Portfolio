@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
                 <main className="flex flex-col min-h-screen max-w-[1600px] mx-auto gap-4">
                     <Navbar />
                     <div className='lg:min-h-[120px] min-h-[100px]'></div>
-                    <div className='lg:px-20 px-8'>
+                    <div className='lg:px-16 px-8'>
                         {children}
                     </div>
-                    <div className='min-h-[120px]'></div>
+                    <div className='min-h-[80px]'></div>
                     <Footer />
                 </main>
                 {/* <Analytics /> */}

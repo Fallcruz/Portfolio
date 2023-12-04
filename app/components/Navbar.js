@@ -1,11 +1,10 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
 function Navbar() {
-    const router = useRouter();
     const pathname = usePathname()
     const [showNavbar, setShowNavbar] = useState(false)
     const handleNavbar = () => {
@@ -25,7 +24,7 @@ function Navbar() {
                 <li className={`w-fit ${pathname === '/' ? 'active' : ''}`}>
                     <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Home</Link>
                 </li>
-                <li className={`w-fit ${pathname === '/projects' ? 'active' : ''}`}>
+                <li className={`w-fit ${pathname.startsWith('/projects') ? 'active' : ''}`}>
                     <Link href='/projects' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Projects</Link>
                 </li>
                 <li className={`w-fit ${pathname === '/about' ? 'active' : ''}`}>
