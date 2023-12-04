@@ -17,7 +17,7 @@ function Navbar() {
                 <Image className='lg:w-[72px] lg:h-[72px] w-14 h-14' src='/img/round-profile.png' width={500} height={500} quality={100} alt='logo' priority={true} />
                 <h1 className='mt-1 lg:text-[3.5rem] text-[2.2rem] font-rakkas leading-none lg:tracking-[-0.5rem] tracking-[-0.3rem]'>RK</h1>
             </div>
-            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex flex-row lg:w-fit w-[98%] bg-black-secondary items-center lg:justify-end justify-center lg:pt-0 lg:pb-0 pt-4 pb-6 lg:gap-8 gap-8`}>
+            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex flex-row lg:w-fit w-[98%] bg-black-secondary items-center lg:justify-end justify-center lg:pt-0 lg:pb-0 pt-4 pb-6 lg:gap-8 gap-2`}>
                 <li className={`w-fit ${pathname === '/' ? 'active' : ''}`}>
                     <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Home</Link>
                 </li>
