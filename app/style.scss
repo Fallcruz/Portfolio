@@ -7,7 +7,7 @@
 :root {
     --black: #000000;
     --blue: #1e88e5;
-    --black-secodary: #202020;
+    --black-secodary: #1c1c1c;
     --gray: #b1b1b1;
     --white: #ffffff;
 
@@ -19,7 +19,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--black-secodary);
+    background: #1c1c1c;
     font-family: var(--plus-jakarta-sans);
     color: var(--white);
 }

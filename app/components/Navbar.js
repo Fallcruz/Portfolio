@@ -10,7 +10,7 @@ function Navbar() {
     }
     // console.log(showNavbar);
     return (
-        <nav className='flex flex-row items-center justify-between fixed top-0 left-0 right-0 lg:py-3 py-2 lg:px-14 px-6 bg-black-secondary'>
+        <nav className='flex flex-row items-center justify-between fixed top-0 left-0 right-0 lg:py-3 py-2 lg:px-14 px-6 bg-black-secondary z-50 max-w-[1600px] mx-auto'>
             <div className='flex flex-row items-center gap-1'>
                 <Image className='lg:w-[72px] lg:h-[72px] w-14 h-14' src='/img/round-profile.png' width={500} height={500} quality={100} alt='logo' priority={true} />
                 <h1 className='mt-1 lg:text-[3.5rem] text-[2.2rem] font-rakkas leading-none lg:tracking-[-0.5rem] tracking-[-0.3rem]'>RK</h1>
