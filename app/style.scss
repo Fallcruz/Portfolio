@@ -27,10 +27,12 @@ body {
 // .active {
 //     color: var(--blue);
 // }
-nav .navbar-menu li.active {
-    background: var(--blue);
+nav .navbar-menu li {
     padding: 6px 14px;
     border-radius: 6px;
+}
+nav .navbar-menu li.active {
+    background: var(--blue);
 
     a {
         color: var(--white);

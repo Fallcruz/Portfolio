@@ -1,6 +1,8 @@
 // import './globals.css'
 import './style.scss'
-import { Analytics } from '@vercel/analytics/react';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+// import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
     title: 'Portfolio - Rizky Khoiruddin',
@@ -12,12 +14,19 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="./" sizes="any" />
-                {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" defer /> */}
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/1.35.0/iconfont/tabler-icons.min.css" defer />
             </head>
             <body>
-                {children}
-                <Analytics />
+                <main className="flex flex-col min-h-screen max-w-[1600px] mx-auto gap-4">
+                    <Navbar />
+                    <div className='lg:min-h-[120px] min-h-[100px]'></div>
+                    <div className='lg:px-20 px-8'>
+                        {children}
+                    </div>
+                    <div className='min-h-[120px]'></div>
+                    <Footer />
+                </main>
+                {/* <Analytics /> */}
             </body>
         </html>
     )
