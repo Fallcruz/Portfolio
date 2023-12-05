@@ -19,11 +19,11 @@ function Skills() {
                 <h1 className='text-2xl font-medium'>My Skills</h1>
                 <hr className='w-10 border-t-[3px] border-white rounded' />
             </div>
-            <div className='w-fit flex flex-row flex-wrap items-center justify-center bg-white rounded-lg lg:gap-12 gap-6 lg:px-8 px-5 py-5'>
+            <div className='w-full flex flex-row flex-wrap items-center justify-center bg-white rounded-lg lg:gap-12 gap-6 lg:px-8 px-5 py-5'>
                 {listSkills.map((data, index) => {
                     return (
                         <div aria-label={data.label} key={index}>
-                            <Image className='w-auto lg:h-16 h-10' src={data.src} width={500} height={500} quality={100} alt={data.alt}/>
+                            <Image className='w-auto lg:h-16 h-12' src={data.src} width={500} height={500} quality={100} alt={data.alt}/>
                         </div>
                     )
                 })}
