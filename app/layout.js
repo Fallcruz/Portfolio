@@ -2,7 +2,7 @@
 import './style.scss'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-// import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
     title: 'Portfolio - Rizky Khoiruddin',
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
                     <div className='min-h-[80px]'></div>
                     <Footer />
                 </main>
-                {/* <Analytics /> */}
+                <Analytics />
             </body>
         </html>
     )
