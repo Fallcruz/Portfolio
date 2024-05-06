@@ -31,7 +31,7 @@ function Navbar() {
                     <Link href='/about' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>About</Link>
                 </li>
                 <li className='w-fit'>
-                    <Link href='/' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray'>Contacts</Link>
+                    <Link href='' className='font-plus-jakarta-sans lg:text-base text-sm font-medium hover:text-gray pointer-events-none'>Contacts</Link>
                 </li>
             </ul>
             <div className='flex lg:hidden items-center justify-center'>
