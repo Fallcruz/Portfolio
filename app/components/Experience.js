@@ -7,7 +7,6 @@ function Experience() {
             <div className='flex flex-col items-center gap-3'>
                 <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Experience</h1>
                 <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent'>Explore Now</h4>
-                {/* <hr className='w-10 border-t-[3px] border-white rounded' /> */}
             </div>
             <div className='w-full flex flex-col items-center lg:px-6 mt-6 gap-14'>
                 <div className='lg:w-[80%] w-full flex flex-col gap-5'>

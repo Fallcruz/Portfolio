@@ -17,8 +17,6 @@ function Skills() {
     return (
         <div className='flex flex-col items-center mt-20 gap-6'>
             <div className='flex flex-col items-center gap-3'>
-                {/* <h1 className='text-2xl font-medium'>My Skills</h1>
-                <hr className='w-10 border-t-[3px] border-white rounded' /> */}
                 <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Skills</h1>
                 <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent ms-2'>Explore Now</h4>
             </div>
@@ -26,7 +24,7 @@ function Skills() {
                 {listSkills.map((data, index) => {
                     return (
                         <div className='p-3 bg-white rounded-xl' aria-label={data.label} key={index}>
-                            <Image className='w-auto lg:h-16 h-12' src={data.src} width={500} height={500} quality={100} alt={data.alt}/>
+                            <Image className='w-auto lg:h-12 h-10' src={data.src} width={500} height={500} quality={100} alt={data.alt}/>
                         </div>
                     )
                 })}

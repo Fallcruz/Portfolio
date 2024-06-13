@@ -11,8 +11,6 @@ function Projects() {
     return (
         <div className='flex flex-col items-center mt-20 lg:gap-8 gap-12'>
             <div className='flex flex-col items-center gap-3'>
-                {/* <h1 className='text-2xl font-medium'>My Projects</h1>
-                <hr className='w-10 border-t-[3px] border-white rounded' /> */}
                 <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Projects</h1>
                 <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent'>Explore Now</h4>
             </div>
