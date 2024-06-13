@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Rakkas&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&family=Rakkas&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,8 +6,8 @@
 
 :root {
     --black: #000000;
-    --blue: #1e88e5;
     --black-secondary: #1c1c1c;
+    --blue: #1e88e5;
     --gray: #b1b1b1;
     --white: #ffffff;
     --linear-blue: linear-gradient(90deg, rgba(30,136,229,1) 20%, rgba(30,229,140,1) 100%);
@@ -35,36 +35,51 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #1c1c1c;
+    background: var(--black-secondary);
     font-family: var(--plus-jakarta-sans);
     color: var(--white);
 }
 
-// .active {
-//     color: var(--blue);
+// nav .navbar-menu li {
+//     padding: 6px 14px;
+//     border-radius: 6px;
 // }
-nav .navbar-menu li {
-    padding: 6px 14px;
-    border-radius: 6px;
-}
-nav .navbar-menu li.active {
-    background: var(--blue);
+// nav .navbar-menu li.active {
+//     background: var(--blue);
 
-    a {
-        color: var(--white);
-        font-weight: 600;
+//     a {
+//         color: var(--white);
+//         font-weight: 600;
+//     }
+// }
+// @media (max-width: 960px) {
+//     nav .navbar-menu {
+//         position: fixed;
+//         top: 70px;
+//         right: 0;
+//         border-radius: 0 0 0 40px;
+//         box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 0px, rgba(255, 255, 255, 0.24) 0px 2px 2px;
+//     }
+// }
+
+nav .navbar-menu {
+    li {
+        border-color: #00000000;
+    }
+    li.active {
+        background-color: var(--blue);
     }
 }
-// nav .navbar-menu {
-//     transition: all 0.8s ease-in-out !important;
-// }
 @media (max-width: 960px) {
     nav .navbar-menu {
-        position: fixed;
-        top: 70px;
-        right: 0;
-        border-radius: 0 0 0 40px;
-        box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 0px, rgba(255, 255, 255, 0.24) 0px 2px 2px;
+        background: var(--black-secondary);
+        position: absolute;
+        top: 90px;
+        right: 5px;
+        // padding: 32px 52px 20px 52px;
+        border: 0.2px solid var(--gray);
+        border-radius: 12px;
+        transition: all 0.4s ease;
     }
 }
 
@@ -79,7 +94,3 @@ nav .navbar-menu li.active {
     border-radius: 4rem;
     border: 2px solid transparent;
 }
-// .backdrop-blur {
-//     backdrop-filter: blur(12px);
-//     -webkit-backdrop-filter: blur(12px);
-// }
