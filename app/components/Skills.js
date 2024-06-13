@@ -20,7 +20,7 @@ function Skills() {
                 <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Skills</h1>
                 <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent ms-2'>Explore Now</h4>
             </div>
-            <div className='w-full flex flex-row flex-wrap items-center justify-center rounded-lg lg:gap-6 gap-6 lg:px-8 px-5 py-5'>
+            <div className='w-full flex flex-row flex-wrap items-center justify-center rounded-lg lg:gap-4 gap-4 lg:px-8 px-5 py-5'>
                 {listSkills.map((data, index) => {
                     return (
                         <div className='p-3 bg-white rounded-xl' aria-label={data.label} key={index}>

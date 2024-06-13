@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
             <body>
                 <main className="flex flex-col min-h-screen max-w-[1600px] mx-auto gap-4">
                     <Navbar />
-                    <div className='lg:min-h-[10px] min-h-[10px]'></div>
+                    <div className='lg:min-h-[10px] min-h-[0px]'></div>
                     <div className='lg:px-16 px-8'>
                         {children}
                     </div>
