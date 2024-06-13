@@ -4,6 +4,19 @@ import Link from 'next/link'
 function page({ params }) {
     const listProjects = [
         {
+            label: 'website-estatein',
+            src: '/img/estatein-full.png',
+            alt: 'website-estatein', 
+            title: 'Website Estatein',
+            desc: '-',
+            tools: {
+                language: 'Bahasa Pemorograman : HTML, CSS, Javascript',
+                framework: 'Framework : NextJS dan Tailwind CSS',
+                editor: 'Code Editor : Visual Studio Code',
+            },
+            source: 'https://estatein.vercel.app',
+        },
+        {
             label: 'website-sobatkerja',
             src: '/img/sobatkerja-full.png',
             alt: 'website-sobatkerja', 

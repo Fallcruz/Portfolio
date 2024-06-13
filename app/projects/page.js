@@ -4,6 +4,13 @@ import Link from "next/link"
 function page() {
     const listProjects = [
         {
+            label: 'website-estatein',
+            src: '/img/estatein.png',
+            alt: 'website-estatein', 
+            title: 'Website Estatein',
+            desc: '-',
+        },
+        {
             label: 'website-sobatkerja',
             src: '/img/sobatkerja.png',
             alt: 'website-sobatkerja', 

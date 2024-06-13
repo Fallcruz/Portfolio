@@ -3,6 +3,7 @@ import React from 'react'
 
 function Projects() {
     const listProjects = [
+        { label: 'website-estatein', src: '/img/estatein.png', alt: 'website-estatein', title: 'Website Estatein' },
         { label: 'website-sobatkerja', src: '/img/sobatkerja.png', alt: 'website-sobatkerja', title: 'Website SobatKerja' },
         { label: 'website-travi', src: '/img/travi.png', alt: 'website-travi', title: 'Website Travi (Travel Village)' },
         { label: 'sobatkerja-application', src: '/img/sobatkerja-mobile.png', alt: 'sobatkerja-application', title: 'SobatKerja Application' },
@@ -14,7 +15,7 @@ function Projects() {
                 <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Projects</h1>
                 <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent'>Explore Now</h4>
             </div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full justify-center items-center gap-12 lg:px-6'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full justify-center items-center gap-8 lg:px-6'>
                 {listProjects.map((data, index) => {
                     return (
                         <div className='flex flex-col items-center justify-start lg:p-4 gap-5' aria-label={data.label} key={index}>
