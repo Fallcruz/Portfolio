@@ -74,10 +74,12 @@ nav .navbar-menu li.active {
     -webkit-text-fill-color: transparent;
 }
 .border-linear-blue {
-    // background: linear-gradient(var(--black-secondary), var(--black-secondary)) padding-box,
-    //             var(--linear-blue) border-box;
     background: linear-gradient(var(--black-secondary), var(--black-secondary)) padding-box,
                 var(--linear-blue) border-box;
     border-radius: 4rem;
     border: 2px solid transparent;
 }
+// .backdrop-blur {
+//     backdrop-filter: blur(12px);
+//     -webkit-backdrop-filter: blur(12px);
+// }
