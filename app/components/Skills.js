@@ -15,7 +15,7 @@ function Skills() {
         { label: 'outsystems', src: '/img/outsystems.svg', alt: 'outsystems' },
     ]
     return (
-        <div className='flex flex-col items-center mt-14 gap-6'>
+        <div className='flex flex-col items-center mt-20 gap-6'>
             <div className='flex flex-col items-center gap-3'>
                 {/* <h1 className='text-2xl font-medium'>My Skills</h1>
                 <hr className='w-10 border-t-[3px] border-white rounded' /> */}
