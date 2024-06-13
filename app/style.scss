@@ -10,7 +10,7 @@
     --blue: #1e88e5;
     --gray: #b1b1b1;
     --white: #ffffff;
-    --linear-blue: linear-gradient(90deg, rgba(30,136,229,1) 20%, rgba(30,229,140,1) 100%);
+    --linear-blue: linear-gradient(90deg, rgba(30,136,229,1) 20%, rgb(30, 229, 140) 100%);
 
     --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
     --rakkas: "Rakkas", sans-serif;
@@ -40,28 +40,6 @@ body {
     color: var(--white);
 }
 
-// nav .navbar-menu li {
-//     padding: 6px 14px;
-//     border-radius: 6px;
-// }
-// nav .navbar-menu li.active {
-//     background: var(--blue);
-
-//     a {
-//         color: var(--white);
-//         font-weight: 600;
-//     }
-// }
-// @media (max-width: 960px) {
-//     nav .navbar-menu {
-//         position: fixed;
-//         top: 70px;
-//         right: 0;
-//         border-radius: 0 0 0 40px;
-//         box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 0px, rgba(255, 255, 255, 0.24) 0px 2px 2px;
-//     }
-// }
-
 nav .navbar-menu {
     li {
         border-color: #00000000;
@@ -76,8 +54,7 @@ nav .navbar-menu {
         position: absolute;
         top: 85px;
         right: 10px;
-        // padding: 32px 52px 20px 52px;
-        border: 0.2px solid var(--gray);
+        border: 0.1px solid var(--gray);
         border-radius: 12px;
         transition: all 0.4s ease;
     }

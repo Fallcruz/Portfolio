@@ -20,7 +20,7 @@ function Navbar() {
                 <Image className='lg:w-[72px] lg:h-[72px] w-14 h-14' src='/img/round-profile.png' width={500} height={500} quality={100} alt='logo' priority={true} />
                 <h1 className='mt-1 lg:text-[3.5rem] text-[2.2rem] font-rakkas leading-none lg:tracking-[-0.5rem] tracking-[-0.3rem]'>RK</h1>
             </Link>
-            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex lg:flex-row md:flex-row flex-row items-center lg:justify-center justify-between lg:text-sm text-xs font-medium lg:p-0 px-16 py-5 lg:gap-3 gap-3`}>
+            <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex lg:flex-row md:flex-row flex-row items-center lg:justify-center justify-between lg:text-sm text-xs font-medium lg:p-0 px-12 py-5 lg:gap-3 gap-3`}>
                 <li className={`${pathname === '/' ? 'active' : ''} px-5 lg:py-[10px] py-2 rounded-lg`}>
                     <Link href='/'>Home</Link>
                 </li>

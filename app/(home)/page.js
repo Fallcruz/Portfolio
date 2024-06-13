@@ -17,7 +17,7 @@ export default function Page() {
                     <Link href='/projects' className='bg-blue text-base text-white font-bold px-5 lg:py-[10px] py-2 rounded-lg tracking-tight'>My Projects</Link>
                 </div>
                 <div className='flex flex-row basis-[50%] items-center justify-center'>
-                    <Image className='lg:w-auto w-72 lg:h-96 h-auto' src='/img/pic-profile.png' width={500} height={500} sizes='100vw' quality={100} alt='logo' priority={true}/>
+                    <Image className='lg:w-auto w-72 lg:h-96 h-auto' src='/img/pic-profile-linear.png' width={500} height={500} sizes='100vw' quality={100} alt='logo' priority={true}/>
                 </div>
             </div>
             <Skills />
