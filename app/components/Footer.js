@@ -20,7 +20,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className='flex items-center lg:justify-end justify-start lg:col-auto col-span-2'>
-                    <p className='text-xs tracking-wide'>© 2024 <span className='font-bold'>Rizky Khoiruddin</span>. All rights reserved.</p>
+                    <p className='text-sm tracking-wide'>© {new Date().getFullYear()} <span className='font-bold'>Rizky Khoiruddin</span>. All rights reserved.</p>
                 </div>
             </div>
         </div>

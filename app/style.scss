@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Rakkas&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Rakkas&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,7 @@
     --black-secondary: #1c1c1c;
     --gray: #b1b1b1;
     --white: #ffffff;
+    --linear-blue: linear-gradient(90deg, rgba(30,136,229,1) 20%, rgba(30,229,140,1) 100%);
 
     --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
     --rakkas: "Rakkas", sans-serif;
@@ -65,4 +66,18 @@ nav .navbar-menu li.active {
         border-radius: 0 0 0 40px;
         box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 0px, rgba(255, 255, 255, 0.24) 0px 2px 2px;
     }
+}
+
+.linear-blue {
+    background: linear-gradient(90deg, rgba(30,136,229,1) 20%, rgba(30,229,140,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.border-linear-blue {
+    // background: linear-gradient(var(--black-secondary), var(--black-secondary)) padding-box,
+    //             var(--linear-blue) border-box;
+    background: linear-gradient(var(--black-secondary), var(--black-secondary)) padding-box,
+                var(--linear-blue) border-box;
+    border-radius: 4rem;
+    border: 2px solid transparent;
 }

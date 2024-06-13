@@ -13,6 +13,7 @@ module.exports = {
             'blue': '#1e88e5',
             'white': '#ffffff',
             'gray-card': 'rgba(255, 255, 255, 0.9)',
+            'linear-blue': 'linear-gradient(90deg, rgba(30,136,229,1) 20%, rgba(30,229,140,1) 100%)',
         },
         fontFamily: {
             'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
