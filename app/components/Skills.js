@@ -19,8 +19,8 @@ function Skills() {
             <div className='flex flex-col items-center gap-3'>
                 {/* <h1 className='text-2xl font-medium'>My Skills</h1>
                 <hr className='w-10 border-t-[3px] border-white rounded' /> */}
-                <h1 className='text-6xl font-extrabold uppercase tracking-wide'>Skills</h1>
-                <h4 className='text-lg font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent ms-2'>Explore Now</h4>
+                <h1 className='lg:text-6xl text-5xl font-extrabold uppercase tracking-wide'>Skills</h1>
+                <h4 className='lg:text-lg text-base font-semibold uppercase tracking-[0.8rem] linear-blue text-transparent ms-2'>Explore Now</h4>
             </div>
             <div className='w-full flex flex-row flex-wrap items-center justify-center rounded-lg lg:gap-6 gap-6 lg:px-8 px-5 py-5'>
                 {listSkills.map((data, index) => {
