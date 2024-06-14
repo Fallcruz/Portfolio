@@ -23,7 +23,7 @@ function Experience() {
                         </div>
                     </div>
                     {/* <div className=''>
-                        <ol className='list-disc list-inside lg:text-lg text-base flex flex-col gap-2'>
+                        <ol className='list-disc list-outside lg:text-lg text-base flex flex-col gap-2'>
                             <li>lorem ipsum</li>
                         </ol>
                     </div> */}
@@ -46,8 +46,8 @@ function Experience() {
                             <h3 className='lg:text-lg text-base font-semibold'>July 2022 - January 2024, Intership, Hybrid</h3>
                         </div>
                     </div>
-                    <div className=''>
-                        <ol className='list-disc list-inside lg:text-lg text-sm flex flex-col gap-2'>
+                    <div className='ms-4'>
+                        <ol className='list-disc list-outside lg:text-lg text-sm flex flex-col gap-2'>
                             <li>Create UI/UX Design for several Landing Pages, Websites and Web Applications</li>
                             <li>Building a database using MySQL</li>
                             <li>Building Websites and Web Applications using the Laravel framework</li>

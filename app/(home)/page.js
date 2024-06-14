@@ -11,7 +11,7 @@ export default function Page() {
                 <div className='flex flex-col basis-[50%] items-start justify-center lg:ms-10 ms-0 me-0 gap-5'>
                     <h1 className='text-2xl font-bold uppercase tracking-normal'>Rizky Khoiruddin</h1>
                     <h2 className='linear-blue text-5xl font-bold tracking-tight pb-1'>Fullstack Developer</h2>
-                    <p className='lg:text-base text-base lg:leading-[30px] leading-7 lg:text-start text-justify'>
+                    <p className='lg:text-base text-base lg:leading-[30px] leading-7'>
                         Saya menerapkan desain antarmuka pengguna dan memecahkan masalah pengguna dengan HTML, CSS, Javascript dan PHP serta menguasai Framework Laravel yang sudah saya implementasikan ke dalam beberapa project yang sudah saya buat.
                     </p>
                     <Link href='/projects' className='bg-blue text-base text-white font-bold px-5 lg:py-[10px] py-2 rounded-lg tracking-tight'>My Projects</Link>

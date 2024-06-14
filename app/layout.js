@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <Head>
                 <title>{metadata.title}</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content={metadata.description} />
                 <link rel="icon" href={favicon} />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/1.35.0/iconfont/tabler-icons.min.css" />
