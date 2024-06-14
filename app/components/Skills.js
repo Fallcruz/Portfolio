@@ -9,6 +9,7 @@ function Skills() {
         { label: 'python', src: '/img/python.svg', alt: 'python' },
         { label: 'bootstrap', src: '/img/bootstrap.svg', alt: 'bootstrap' },
         { label: 'tailwind', src: '/img/tailwind.svg', alt: 'tailwind' },
+        { label: 'php', src: '/img/php.svg', alt: 'php' },
         { label: 'laravel', src: '/img/laravel.svg', alt: 'laravel' },
         { label: 'reactjs', src: '/img/reactjs.svg', alt: 'reactjs' },
         { label: 'nextjs', src: '/img/nextjs.svg', alt: 'nextjs' },
