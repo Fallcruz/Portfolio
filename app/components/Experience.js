@@ -16,7 +16,7 @@ function Experience() {
                     </div>
                     <div className='flex lg:flex-row flex-col lg:items-center lg:justify-between lg:gap-0 gap-1'>
                         <div className='flex items-center'>
-                            <h2 className='lg:text-xl text-lg font-semibold'>OutSystems Developer</h2>
+                            <h2 className='lg:text-xl text-lg font-semibold'>Application Development</h2>
                         </div>
                         <div>
                             <h3 className='lg:text-lg text-base font-semibold'>June 2024 - Present, Internship, Hybrid</h3>
