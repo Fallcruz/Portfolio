@@ -8,7 +8,7 @@ function page({ params }) {
             src: '/img/estatein-full.png',
             alt: 'website-estatein', 
             title: 'Website Estatein',
-            desc: '-',
+            desc: 'Link : https://estatein.vercel.app/',
             tools: {
                 language: 'Bahasa Pemorograman : HTML, CSS, Javascript',
                 framework: 'Framework : NextJS dan Tailwind CSS',

@@ -8,7 +8,7 @@ function page() {
             src: '/img/estatein.png',
             alt: 'website-estatein', 
             title: 'Website Estatein',
-            desc: '-',
+            desc: 'Link : https://estatein.vercel.app/',
         },
         {
             label: 'website-sobatkerja',
