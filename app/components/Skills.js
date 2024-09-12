@@ -12,6 +12,7 @@ function Skills() {
         { label: 'laravel', src: '/img/laravel.svg', alt: 'laravel' },
         { label: 'reactjs', src: '/img/reactjs.svg', alt: 'reactjs' },
         { label: 'nextjs', src: '/img/nextjs.svg', alt: 'nextjs' },
+        { label: 'jira', src: '/img/jira.svg', alt: 'jira' },
         { label: 'outsystems', src: '/img/outsystems.svg', alt: 'outsystems' },
     ]
     return (

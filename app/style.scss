@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&family=Rakkas&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,6 +15,7 @@
 
     --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
     --rakkas: "Rakkas", sans-serif;
+    --inter: "Inter", sans-serif;
 }
 
 /* === Scroll Bar === */
@@ -36,7 +38,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background: var(--black-secondary);
-    font-family: var(--plus-jakarta-sans);
+    font-family: var(--inter);
     color: var(--white);
 }
 

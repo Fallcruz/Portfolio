@@ -19,7 +19,7 @@ function Experience() {
                             <h2 className='lg:text-xl text-lg font-semibold'>Application Development</h2>
                         </div>
                         <div>
-                            <h3 className='lg:text-lg text-base font-semibold'>June 2024 - Present, Internship, Hybrid</h3>
+                            <h3 className='lg:text-lg text-base font-semibold'>June 2024 - September 2024, Internship, Hybrid</h3>
                         </div>
                     </div>
                     {/* <div className=''>
@@ -28,6 +28,9 @@ function Experience() {
                         </ol>
                     </div> */}
                     <div className='flex items-center flex-wrap gap-3'>
+                        <div className='px-4 py-2 border-linear-blue rounded-[2rem]'>
+                            <h3 className='lg:text-base text-xs font-semibold'>Jira</h3>
+                        </div>
                         <div className='px-4 py-2 border-linear-blue rounded-[2rem]'>
                             <h3 className='lg:text-base text-xs font-semibold'>OutSystems</h3>
                         </div>

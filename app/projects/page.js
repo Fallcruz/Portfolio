@@ -4,6 +4,13 @@ import Link from "next/link"
 function page() {
     const listProjects = [
         {
+            label: 'website-newsify',
+            src: '/img/newsify.png',
+            alt: 'website-newsify', 
+            title: 'Website Newsify',
+            desc: 'Link : https://newsify-smoky.vercel.app/',
+        },
+        {
             label: 'website-estatein',
             src: '/img/estatein.png',
             alt: 'website-estatein', 
@@ -46,7 +53,7 @@ function page() {
                 {listProjects.map((data, index) => {
                     return (
                         <div className='w-full flex lg:flex-row flex-col items-center lg:justify-start justify-center lg:gap-14 gap-6' aria-label={data.label} key={index}>
-                            <Image className='lg:w-96 w-auto lg:h-96 h-auto rounded-3xl hover:brightness-90' src={data.src} width={500} height={500} quality={100} alt={data.alt} />
+                            <Image className='lg:w-96 w-auto lg:h-96 h-auto rounded-3xl hover:brightness-90' src={data.src} width={500} height={500} sizes='100vw' quality={100} alt={data.alt} />
                             <div className="flex flex-col lg:items-start items-center lg:gap-10 gap-5">
                                 <div className="flex flex-col gap-3">
                                     <h1 className='lg:text-2xl text-lg font-semibold'>{data.title}</h1>

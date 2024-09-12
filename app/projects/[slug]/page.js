@@ -4,6 +4,19 @@ import Link from 'next/link'
 function page({ params }) {
     const listProjects = [
         {
+            label: 'website-newsify',
+            src: '/img/newsify-full.png',
+            alt: 'website-newsify', 
+            title: 'Website Newsify',
+            desc: 'Link : https://newsify-smoky.vercel.app/',
+            tools: {
+                language: 'Bahasa Pemorograman : HTML, CSS, Javascript',
+                framework: 'Framework : NextJS dan Tailwind CSS',
+                editor: 'Code Editor : Visual Studio Code',
+            },
+            source: 'https://newsify-smoky.vercel.app/',
+        },
+        {
             label: 'website-estatein',
             src: '/img/estatein-full.png',
             alt: 'website-estatein', 

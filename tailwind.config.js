@@ -18,6 +18,7 @@ module.exports = {
         fontFamily: {
             'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
             'rakkas': ['Rakkas', 'sans-serif'],
+            'inter': ['Inter', 'sans-serif'],
         },
         extend: {
             backgroundImage: {
