@@ -19,7 +19,7 @@ function Experience() {
                             <h2 className='lg:text-xl text-lg font-semibold'>Application Development</h2>
                         </div>
                         <div>
-                            <h3 className='lg:text-lg text-base font-semibold'>June 2024 - Present, Internship, Hybrid</h3>
+                            <h3 className='lg:text-lg text-base font-semibold'>June 2024 - September 2024, Internship, Hybrid</h3>
                         </div>
                     </div>
                     {/* <div className=''>
