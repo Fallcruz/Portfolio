@@ -4,6 +4,19 @@ import Link from 'next/link'
 function page({ params }) {
     const listProjects = [
         {
+            label: 'website-portal-berita',
+            src: '/img/portal-berita-full.png',
+            alt: 'website-portal-berita', 
+            title: 'Website Portal Berita Indonesia',
+            desc: 'Link : https://portal-berita-indonesia.vercel.app/',
+            tools: {
+                language: 'Bahasa Pemorograman : HTML, CSS, Javascript',
+                framework: 'Framework : NextJS dan Tailwind CSS',
+                editor: 'Code Editor : Visual Studio Code',
+            },
+            source: 'https://portal-berita-indonesia.vercel.app/',
+        },
+        {
             label: 'website-newsify',
             src: '/img/newsify-full.png',
             alt: 'website-newsify', 

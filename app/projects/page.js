@@ -4,6 +4,13 @@ import Link from "next/link"
 function page() {
     const listProjects = [
         {
+            label: 'website-portal-berita',
+            src: '/img/portal-berita.png',
+            alt: 'website-portal-berita', 
+            title: 'Website Portal Berita Indonesia',
+            desc: 'Link : https://portal-berita-indonesia.vercel.app/',
+        },
+        {
             label: 'website-newsify',
             src: '/img/newsify.png',
             alt: 'website-newsify', 

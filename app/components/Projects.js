@@ -3,6 +3,7 @@ import React from 'react'
 
 function Projects() {
     const listProjects = [
+        { label: 'website-portal-berita', src: '/img/portal-berita.png', alt: 'website-portal-berita', title: 'Website Portal Berita Indonesia' },
         { label: 'website-newsify', src: '/img/newsify.png', alt: 'website-newsify', title: 'Website Newsify' },
         { label: 'website-estatein', src: '/img/estatein.png', alt: 'website-estatein', title: 'Website Estatein' },
         { label: 'website-sobatkerja', src: '/img/sobatkerja.png', alt: 'website-sobatkerja', title: 'Website SobatKerja' },
