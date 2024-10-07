@@ -3,13 +3,14 @@ import React from 'react'
 
 function Projects() {
     const listProjects = [
+        { label: 'website-helby', src: '/img/helby.png', alt: 'website-helby', title: 'Website Helby' },
         { label: 'website-portal-berita', src: '/img/portal-berita.png', alt: 'website-portal-berita', title: 'Website Portal Berita Indonesia' },
         { label: 'website-newsify', src: '/img/newsify.png', alt: 'website-newsify', title: 'Website Newsify' },
         { label: 'website-estatein', src: '/img/estatein.png', alt: 'website-estatein', title: 'Website Estatein' },
-        { label: 'website-sobatkerja', src: '/img/sobatkerja.png', alt: 'website-sobatkerja', title: 'Website SobatKerja' },
-        { label: 'website-travi', src: '/img/travi.png', alt: 'website-travi', title: 'Website Travi (Travel Village)' },
-        { label: 'sobatkerja-application', src: '/img/sobatkerja-mobile.png', alt: 'sobatkerja-application', title: 'SobatKerja Application' },
-        { label: 'redesign-website-iflab', src: '/img/iflab.png', alt: 'redesign-website-iflab', title: 'Redesign Website IFLAB' },
+        // { label: 'website-sobatkerja', src: '/img/sobatkerja.png', alt: 'website-sobatkerja', title: 'Website SobatKerja' },
+        // { label: 'website-travi', src: '/img/travi.png', alt: 'website-travi', title: 'Website Travi (Travel Village)' },
+        // { label: 'sobatkerja-application', src: '/img/sobatkerja-mobile.png', alt: 'sobatkerja-application', title: 'SobatKerja Application' },
+        // { label: 'redesign-website-iflab', src: '/img/iflab.png', alt: 'redesign-website-iflab', title: 'Redesign Website IFLAB' },
     ]
     return (
         <div className='flex flex-col items-center mt-20 lg:gap-8 gap-12'>

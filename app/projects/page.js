@@ -4,6 +4,13 @@ import Link from "next/link"
 function page() {
     const listProjects = [
         {
+            label: 'website-helby',
+            src: '/img/helby.png',
+            alt: 'website-helby', 
+            title: 'Website Helby',
+            desc: 'Link : https://helby.vercel.app/',
+        },
+        {
             label: 'website-portal-berita',
             src: '/img/portal-berita.png',
             alt: 'website-portal-berita', 

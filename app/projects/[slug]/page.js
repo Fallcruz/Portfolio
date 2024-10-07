@@ -4,6 +4,19 @@ import Link from 'next/link'
 function page({ params }) {
     const listProjects = [
         {
+            label: 'website-helby',
+            src: '/img/helby-full.png',
+            alt: 'website-helby', 
+            title: 'Website Helby',
+            desc: 'Link : https://helby.vercel.app/',
+            tools: {
+                language: 'Bahasa Pemorograman : HTML, CSS, Javascript',
+                framework: 'Framework : NextJS dan Tailwind CSS',
+                editor: 'Code Editor : Visual Studio Code',
+            },
+            source: 'https://helby.vercel.app/',
+        },
+        {
             label: 'website-portal-berita',
             src: '/img/portal-berita-full.png',
             alt: 'website-portal-berita', 
@@ -104,7 +117,7 @@ function page({ params }) {
                 <p className='text-lg font-semibold leading-tight'>Back</p>
             </Link>
             <div className='w-full flex flex-col gap-8'>
-                <Image className='w-full h-[25rem] object-cover object-top rounded-3xl' src={dataProject.src} width={500} height={500} sizes='100vw' quality={100} alt={dataProject.alt} />
+                <Image className='w-full h-[25rem] object-cover object-top rounded-3xl' src={dataProject.src} width={1000} height={1000} sizes='100vw' quality={100} alt={dataProject.alt} />
                 <h1 className='lg:text-3xl text-xl font-semibold'>{dataProject.title}</h1>
                 <div className='flex flex-col gap-3'>
                     <h2 className='lg:text-xl text-lg font-medium'>Deskripsi</h2>
