@@ -11,7 +11,7 @@ function Experience() {
             <div className='w-full flex flex-col items-center lg:px-6 mt-6 gap-14'>
                 <div className='lg:w-[80%] w-full flex flex-col gap-5'>
                     <div className='flex items-center lg:gap-6 gap-4'>
-                        <Image className='w-auto lg:h-14 h-12 rounded-lg' src='/img/sinarmas_land_logo.jpg' width={500} height={500} quality={100} alt='logo-sinarmas-land'/>
+                        <Image className='w-auto lg:h-14 h-12 rounded-lg' src='/img/sinarmas.png' width={500} height={500} quality={100} alt='logo-sinarmas-land'/>
                         <h2 className='lg:text-3xl text-2xl font-bold text-linear-blue'>Sinarmas Land</h2>
                     </div>
                     <div className='flex lg:flex-row flex-col lg:items-center lg:justify-between lg:gap-0 gap-1'>
@@ -56,7 +56,7 @@ function Experience() {
                             <li>Membuat Desain UI/UX untuk beberapa Landing Page, Website, dan Web Application</li>
                             <li>Membangun database menggunakan MySQL</li>
                             <li>Membangun Website dan Web Application menggunakan framework Laravel</li>
-                            <li>UMemperbarui Website dan Web Application yang sudah ada</li>
+                            <li>Memperbarui Website dan Web Application yang sudah ada</li>
                         </ol>
                     </div>
                     <div className='flex items-center flex-wrap gap-3'>
